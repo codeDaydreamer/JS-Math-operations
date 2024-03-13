@@ -1,0 +1,55 @@
+#counterGame{
+    background-color: blueviolet;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+}
+#counter,#diceVal{
+    display: block;
+    font-size: 7em;
+    text-align: center;
+
+}
+#buttonsContainer{
+    text-align: center;
+}
+.buttons{
+    font-size: 2em;
+    padding: 15px;
+    margin: 5px;
+    background-color: hsl(201, 79%, 55%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: aliceblue;
+    border: none;
+}
+.buttons:hover{
+    background-color: aquamarine;
+}
+#gameLabel{
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    color: antiquewhite;
+}
+#rollBtn{
+    font-size: 2em;
+    padding: 15px;
+    margin: 5px;
+    background-color: hsl(46, 79%, 55%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: aliceblue;
+    border: none; 
+}
+#rollBtn:hover{
+   background-color:hsl(46, 65%, 48%) ; 
+}
+#diceGame{
+    background-color: rgb(43, 198, 226);
+    border: none;
+    margin: 15px;
+    padding: 15px;
+}
